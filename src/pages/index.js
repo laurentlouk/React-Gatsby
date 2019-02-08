@@ -1,3 +1,13 @@
 import React from "react"
+import { StaticQuery, graphql } from 'gatsby'
+import Header from '../components/Header'
 
-export default () => <div>Hello world!</div>
+const Layout = () => {
+  return (
+    <div>
+      <Header />
+    </div>
+  )
+}
+
+export default Layout 
