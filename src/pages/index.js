@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 import { graphql, Link } from 'gatsby'
 import Header from '../components/Header'
 
@@ -26,6 +26,10 @@ const Layout = ({ data }) => {
             </div>
           )
         })}
+
+        <div>
+          <Link to='/tags'>Browse by Tag</Link>
+        </div>
       </div>
     </div>
   )
